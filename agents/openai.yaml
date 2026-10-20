@@ -1,0 +1,7 @@
+interface:
+  display_name: "SCNet OpenFOAM"
+  short_description: "Validate OpenFOAM builds and tutorials on SCNet compute nodes"
+  default_prompt: "Use $scnet-openfoam to plan a remote OpenFOAM validation run, checking isolated toolchains, build evidence and a short tutorial case."
+
+policy:
+  allow_implicit_invocation: true
